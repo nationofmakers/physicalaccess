@@ -1,23 +1,23 @@
 <openerp>
     <data>
         <!--  -->
-        <!--   <record id="object0" model="default_data_demo.default_data_demo"> -->
+        <!--   <record id="object0" model="physical_access_control.physical_access_control"> -->
         <!--     <field name="name">Object 0</field> -->
         <!--   </record> -->
         <!--  -->
-        <!--   <record id="object1" model="default_data_demo.default_data_demo"> -->
+        <!--   <record id="object1" model="physical_access_control.physical_access_control"> -->
         <!--     <field name="name">Object 1</field> -->
         <!--   </record> -->
         <!--  -->
-        <!--   <record id="object2" model="default_data_demo.default_data_demo"> -->
+        <!--   <record id="object2" model="physical_access_control.physical_access_control"> -->
         <!--     <field name="name">Object 2</field> -->
         <!--   </record> -->
         <!--  -->
-        <!--   <record id="object3" model="default_data_demo.default_data_demo"> -->
+        <!--   <record id="object3" model="physical_access_control.physical_access_control"> -->
         <!--     <field name="name">Object 3</field> -->
         <!--   </record> -->
         <!--  -->
-        <!--   <record id="object4" model="default_data_demo.default_data_demo"> -->
+        <!--   <record id="object4" model="physical_access_control.physical_access_control"> -->
         <!--     <field name="name">Object 4</field> -->
         <!--   </record> -->
         <!--  -->

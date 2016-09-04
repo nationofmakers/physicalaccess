@@ -10,7 +10,7 @@
 
         <record model="ir.actions.act_window" id="default_data_list_action">
             <field name="name">Physical Access</field>
-            <field name="res_model">demo.default.data</field>
+            <field name="res_model">physical.access.control</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -20,7 +20,7 @@
         </record>
  		<record model="ir.actions.act_window" id="user_permission_data_list_action">
             <field name="name">User Permissions</field>
-            <field name="res_model">demo.default.data</field>
+            <field name="res_model">physical.access.control</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
@@ -39,7 +39,11 @@
              action course_list_action -->
         <menuitem id="default_data_overview_menu" name="Phisical Access Controllers" parent="openacademy_menu"
                   action="default_data_list_action"/>
-        <menuitem id="default_data_overview_menu" name="User Permissions" parent="openacademy_menu"
+                  
+        <menuitem id="user_menu" name="User Control"
+                  parent="main_openacademy_menu"/>        
+                  
+        <menuitem id="default_data_overview_menu" name="User Permissions" parent="user_menu"
                   action="user_permission_data_list_action"/>
         <!-- Full id location:
              action="openacademy.course_list_action"
