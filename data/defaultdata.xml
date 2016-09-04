@@ -3,16 +3,12 @@
     <data noupdate="1">
 	<!--This will create some default records if they do not exist yet. We will always need these so these are auto-rendered. -->
         <record id="first_course_item" model="physical.access.control">
-            <field name="name">Record #1</field>
-            <field name="description">A description for record #1.</field>
+            <field name="name">Front Door Access</field>
+            <field name="description">7452920</field>
         </record>
-        <record id="second_course_item" model="physical.access.control">
-            <field name="name">Record #2</field>
-            <field name="description">This is the description for record 2.</field>
-        </record>
-        <record id="third_course_item" model="physical.access.control">
-            <field name="name">Record #3</field>
-            <field name="description">Another description.</field>
+ 		<record id="seconmd_item" model="physical.access.control">
+            <field name="name">Wood Shop</field>
+            <field name="description">745456</field>
         </record>
     </data>
 </openerp>
